@@ -353,4 +353,56 @@ p{
     text-align: center;
 }
 }
-    
+
+/* section benefits */
+
+.title-benefits{
+color: white;
+text-align: center;
+font-size: 2rem;
+padding: 50px 0;
+}
+
+.benefits{
+    background-color: #9792E4;
+}
+
+.col-6{
+    flex-basis: calc(100% / 3 - 20px);
+    border-radius: 20px;
+    padding: 45px 45px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+}
+
+.card-benefits{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card-benefits span{
+    font-size: 50px;
+    font-weight: 700;
+    color: #9792E4;
+}
+
+.card-benefits h3{
+    color: #9792E4;
+    font-size: 1.4rem;
+}
+
+.card-benefits p{
+    font-weight: 400;
+}
+
+.btn-benefits{
+    color: white;
+    background-color: #9792E4;
+    font-weight: 600;
+    width: 150px;
+}
+
+
