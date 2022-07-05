@@ -471,4 +471,24 @@ padding: 50px 0;
    }
    }
 
- 
+
+   /* section get started */
+
+   .get-started{
+    background-color: #9792E4;
+   }
+
+   .container-extra-small{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+/* footer */
+
+footer{
+    background-color: #333333;
+}
