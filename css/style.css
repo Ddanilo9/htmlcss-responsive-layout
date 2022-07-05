@@ -125,7 +125,7 @@ nav{
     
 }
 
-h2{
+hero h2{
     color: #0084FD;
     padding-bottom: 2rem;
 }
@@ -164,9 +164,95 @@ p{
     text-align: center;
 }
 
-.row-66{
+.row-nogap{
     display: flex;
     flex-wrap: wrap;
 }
 
 /* section strategic planning */
+
+.strategic-planning{
+    background-color: #9792E4;
+    padding-top: 120px;
+    margin-top: 80px;
+}
+
+.container-small{
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+.col-50{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 30px;
+}
+
+.card-planning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.p-plan{
+    color: white;
+    font-weight: 400;
+}
+
+.p-development{
+    text-align: center;
+}
+
+.img-plan{
+    padding-bottom: 110px;
+}
+
+.img-development{
+ height: 260px;
+}
+
+.title-plan{
+    padding-bottom: 50px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container-small{
+        max-width: 100%;
+    }
+    .row-nogap{
+        flex-direction: column;
+    }
+    .title-plan{
+        font-size: 4rem;
+    }
+    .p-plan{
+        font-size: 1.2rem;
+    }
+    .img-development{
+       height: 100%;
+    }
+    .p-development{
+        font-size: 1.2rem;
+    }
+   }
+
+   
+@media (max-width: 480px) {
+    .container-small{
+        max-width: 100%;
+    }
+    .title-plan{
+        font-size: 2rem;
+    }
+    }
