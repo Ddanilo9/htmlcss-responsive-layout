@@ -282,3 +282,58 @@ p{
         font-size: 2rem;
     }
     }
+
+    /* <!-- section partners --> */
+
+
+.container-partner{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+.container-partner h4{
+    font-weight: 400;
+}
+
+.container-partner h2{
+    color: #9792E4;
+    font-size: 2rem;
+}
+.container-partner p{
+    text-align: center;
+    font-weight: 400;
+}
+
+.row-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-part{
+    background-color: #9792E4;
+    padding: 2rem 1rem;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.img-testimonial{
+        border-radius: 100%;
+        width: 248px;
+        height: 250px;
+        object-fit: cover;
+}
+
+.box-info{
+    padding: 0 50px;
+}
+
+.box-info span,
+.box-info p{
+    color: white;
+    padding-bottom: 1.5rem;
+}
