@@ -337,3 +337,20 @@ p{
     color: white;
     padding-bottom: 1.5rem;
 }
+
+@media (max-width: 480px) {
+    .card-part{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+.box-info{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.box-info p{
+    text-align: center;
+}
+}
+    
