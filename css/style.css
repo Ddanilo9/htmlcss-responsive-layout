@@ -45,7 +45,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
 }
 
 .btn{
@@ -53,6 +53,7 @@ nav{
     padding: 0.6rem;
     border-radius: 30px;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .fa-solid.fa-bars{
@@ -66,10 +67,6 @@ nav{
 
     header ul{
         display: none;
-    }
-
-    .logo{
-        padding-left: 2rem;
     }
 
     .fa-solid.fa-bars{
@@ -86,3 +83,90 @@ nav{
      max-width: 100%;
     }
 }
+
+/* section-hero */
+
+.container{
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 1.8rem;
+    border: 2px solid blue;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.col{
+    flex-basis: calc(100% / 3 - 20px);
+    padding: 30px;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    position: relative;
+}
+
+.col-66{
+    flex-basis: calc(100%/2);
+    flex-grow: 1;
+}
+
+.col-small{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.card{
+    background-color: #B5DDFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2{
+    color: #0084FD;
+    padding-bottom: 2rem;
+}
+
+p{
+    color: #5A6E7F;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.btn-apple{
+    background-color: #0084FD;
+    color: white;
+    padding: 0.6rem 3rem;
+    margin-top: 2.2rem;
+}
+
+.fa-apple{
+    padding-right: 0.5rem;
+}
+
+.col-small img{
+    position: absolute;
+    right: 65px;
+    height: 270px;
+    bottom: 0px;
+}
+
+.hero .fa-solid{
+    color: #0084FD;
+    font-size: 70px;
+    padding-bottom: 2rem;
+}
+
+.align-c{
+    text-align: center;
+}
+
+.row-66{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* section strategic planning */
