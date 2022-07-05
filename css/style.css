@@ -125,7 +125,7 @@ nav{
     
 }
 
-hero h2{
+.hero h2{
     color: #0084FD;
     padding-bottom: 2rem;
 }
@@ -167,6 +167,32 @@ p{
 .row-nogap{
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    .container{
+     max-width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col-small img{
+        position: initial;
+    }
+    .row-nogap{
+        align-items: center;
+    }
+    .col-small{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col .col-66{
+        padding-bottom: 0px;
+    }
+    .btn-apple{
+        margin-bottom: 20px;
+    }
 }
 
 /* section strategic planning */
