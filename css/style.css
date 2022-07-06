@@ -90,7 +90,6 @@ nav{
     max-width: 1190px;
     margin: 0 auto;
     padding: 1.8rem;
-    border: 2px solid blue;
 }
 
 .row{
@@ -200,6 +199,7 @@ p{
 .strategic-planning{
     background-color: #9792E4;
     padding-top: 120px;
+    padding-bottom: 30px;
     margin-top: 80px;
 }
 
@@ -221,7 +221,7 @@ p{
     background-color: white;
     border-radius: 25px;
     gap: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
 }
 
 .flex-column{
@@ -237,6 +237,8 @@ p{
 
 .p-development{
     text-align: center;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .img-plan{
@@ -248,8 +250,18 @@ p{
 }
 
 .title-plan{
+    font-size: 2rem;
     padding-bottom: 50px;
     color: white;
+}
+.fa-arrow-down-long{
+    font-weight: 900;
+    border-radius: 100%;
+    height: 50px;
+    background-color: #9792E4;
+    width: 50px;
+    text-align: center;
+    padding: 17px;
 }
 
 @media (max-width: 768px) {
@@ -285,13 +297,17 @@ p{
 
     /* <!-- section partners --> */
 
+.partners{
+    margin-bottom: 80px;
+}
 
 .container-partner{
    display: flex;
    flex-direction: column;
-   gap: 20px;
+   gap: 35px;
    justify-content: center;
    align-items: center;
+   margin-top: 50px;
 }
 
 .container-partner h4{
@@ -300,11 +316,12 @@ p{
 
 .container-partner h2{
     color: #9792E4;
-    font-size: 2rem;
+    font-size: 43px;
 }
 .container-partner p{
     text-align: center;
     font-weight: 400;
+    font-size: 18px;
 }
 
 .row-column {
@@ -336,6 +353,34 @@ p{
 .box-info p{
     color: white;
     padding-bottom: 1.5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.box-info span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box-info p::before{
+    content: "❝";
+    display: inline;
+    font-size: 35px;
+    color: white;
+    padding-right: 3px;
+    position: relative;
+    top: 5px;
+}
+
+.box-info p::after{
+    content: "❞";
+    display: inline;
+    font-size: 35px;
+    color: white;
+    padding-left: 3px;
+    position: relative;
+    top: 5px;
 }
 
 @media (max-width: 480px) {
@@ -360,11 +405,14 @@ p{
 color: white;
 text-align: center;
 font-size: 2rem;
-padding: 50px 0;
+padding-top: 70px;
+padding-bottom: 46px;
 }
 
 .benefits{
     background-color: #9792E4;
+    padding-bottom: 45px;
+    margin-bottom: 38px;
 }
 
 .col-6{
@@ -391,7 +439,7 @@ padding: 50px 0;
 
 .card-benefits h3{
     color: #9792E4;
-    font-size: 1.4rem;
+    font-size: 22px;
 }
 
 .card-benefits p{
@@ -419,27 +467,39 @@ padding: 50px 0;
 
    .col-70{
     flex-basis: 70%;
-    border: 1px solid red;
     padding: 30px 30px 30px 75px;
    }
 
    .col-30{
     flex-basis: 30%;
-    border: 1px solid red;
     padding: 30px 50px 0px 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
    }
 
    .title-about-us{
     padding-bottom: 45px;
     color: #9792E4;
-    font-size: 2.2rem;
+    font-size: 65px;
+   }
+
+   .col-30 p{
+    color: #9792E4;
+    font-size: 18px;
+    line-height: 26px;
    }
 
 .p-1{
     padding-bottom: 55px;
+}
+
+.p-1,
+.p-2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
 }
 
 .img-about{
@@ -454,6 +514,17 @@ padding: 50px 0;
     background-color: #9792E4;
     font-weight: 400;
     width: 180px;
+}
+
+.col-30 p::before{
+    content: "❝";
+    display: inline;
+    font-size: 100px;
+    color: #9792E4;
+    padding-right: 3px;
+    top: 66px;
+    position: absolute;
+    left: 220px;
 }
 
 @media (max-width: 768px) {
